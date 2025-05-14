@@ -34,7 +34,7 @@ body {
 
 .squidward-container .squid-head {
   position: relative;
-  border: 2px solid #b4cf3a;
+  border: 2px solid #0a1399;
 
 }
 
@@ -222,8 +222,6 @@ body {
   .lid-blocker {
   left: 40%;
   width: 40%;
-  border: 2px solid #7c1b1b;
-
 }
 
 .squidward-container .squid-head .eye-nose-container .eye-container .eye-lid {
@@ -244,7 +242,6 @@ body {
   .eye-nose-container
   .eye-container
   .lid-blocker {
-    border: 2px solid #481fbb;
     position: absolute;
     top: 20%;
     left: 20%;
@@ -252,7 +249,6 @@ body {
     width: 60%;
     height: 20%;
     z-index: 2;
-    background-color: #79b196;
 }
 
 .squidward-container .squid-head .eye-nose-container .eye-container .eye {
