@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #863b3b;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -18,7 +18,6 @@ body {
   align-items: center;
   padding: 0;
   margin: 0;
-  border: 2px solid #7c1b1b;
 }
 
 .squidward-container {
@@ -28,13 +27,13 @@ body {
   height: 37.5rem;
   background-position: 45% top;
   overflow-y: hidden;
-  border: 2px solid #7c1b1b;
-
+  border: 2px solid #817474;
+  border-radius: 5%;
 }
 
 .squidward-container .squid-head {
   position: relative;
-  border: 2px solid #0a1399;
+ 
 
 }
 
@@ -74,7 +73,6 @@ body {
   left: 20%;
   width: calc(23.4375rem * 65 / 100);
   height: calc(23.4375rem * 10 / 100);
-
 }
 
 .squidward-container .squid-head .agbari .spots .spot {
@@ -188,7 +186,6 @@ body {
   border-top-right-radius: 50% 10%;
   border-top-left-radius: 50% 10%;
   z-index: 5; 
-
 }
 
 .squidward-container .squid-head .eye-nose-container {
@@ -465,9 +462,8 @@ body {
   height: 100%;
 }
 .squidward-container .squid-head .jaw .mid-jaw .lower-jaw {
-  border: 3px solid #f5f5f5;
   border-top: 3px solid #161515;
-  background-color: #f5f5f5;
+  background-color: #863b3b;
   transform: translate(
       calc(23.4375rem * -1.8 / 100),
       calc(23.4375rem * 12.8 / 100)
@@ -546,7 +542,7 @@ body {
 }
 .squidward-container .neck .left-arc {
   transform: rotateZ(8deg);
-  background-color: #f5f5f5;
+  background-color: #863b3b;
   position: absolute;
   width: 55%;
   height: calc(23.4375rem * 48 / 100);
@@ -556,7 +552,7 @@ body {
   bottom: 0%;
 }
 .squidward-container .neck .right-arc {
-  background-color: #f5f5f5;
+  background-color: #863b3b;
   transform: rotateZ(10deg);
   position: absolute;
   top: -20%;
